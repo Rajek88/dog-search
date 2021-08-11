@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bhoo Bhoo ! : Web app based on Dog API</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Search Engine for images of Doggos">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Georama&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="heading">
+                <h1>Bhoo Bhoo !</h1>
+                <h4>Developed by Rajendra Kulkarni</h4>
+                <p>Powered by ajax and <a href="https://dog.ceo/dog-api/">dog.ceo</a></p>
+            </div>
+            <div class="search-bar-container">
+                <div class="search-bar-container-div">
+                    <input id="search-bar" type="search" placeholder="Ex. Labrador" required>
+                    <button type="button" class="search-btn" onclick="doggo();"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="dog-image-container">
+                <div class="dog-image-container-div">
+                    <h3>Dog is man's best friend.</h3>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+        <script src="js/dogapi.js"></script>
+    </body>
+</html>
+
+
+<!-- https://dog.ceo/api/breed/hound/images -->
